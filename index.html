@@ -1,0 +1,80 @@
+<!DOCTYPE html><!--Версия HTML-->
+<html>
+    <head>
+        <meta charset="UTF-8" /><!--Кодировка -->
+        <title>People form RE</title><!--Название вкладки в браузере-->
+    </head>
+    <body>
+        <h1>List People</h1>
+        <ol type="I"><!--список с разными значками вместо точек, выыбирать их можн в type-->
+            <li>Rosmary witner<ul><li><a href="https://residentevil.fandom.com/ru/wiki/Розмари_Уинтерс" target="_blank"> Русская вики по Розмари винтерс </a></li></ul></li>
+            <li>Леон Скотт Кеннеди<ul><li><a href="https://residentevil.fandom.com/ru/wiki/Леон_Скотт_Кеннеди" target="_blank">Русская вики по Леону Кеннеди </a></li></ul></li>
+            <!-- <a> нужен для вставления ссылрок-->
+            <!--target="_blank" это нужно чтобы припереходе поссылке не открывалась новвая вкладка браузера, и новая страница открывалась в той же вкладке-->
+        </ol>
+        <h2>Rosmary witner</h2><!--Загаловок, <em> - курсив, <strong> - жирный  -->
+        <p>
+            Rosemary Winters is the daughter of <em>Ethan and Mia Winters</em> 
+            and an adapter of the Megamycete infection following experimentation by Mother Miranda in <strong>February 2021</strong>. 
+        </p><!--Параграф-->
+        <p> 
+            Born on <strong> August 2020</strong> at Applefield Memorial Hospital,
+            Rose weighed an extremely healthy 14.48 pounds and was 24.53 inches in height. 
+        </p>
+
+        <hr />
+
+        <h2>Леон Скотт Кеннеди из <a href="RE2(2019).html">RE2(2019)</a></h2>
+        <p>
+            Aмериканец итальянского происхождения,
+            в настоящее время работающий федеральным агентом в  <em>Отделе операций
+            по обеспечению безопасности</em>(DSO), контртеррористическом агентстве,
+            находящемся под прямым контролем президента США. 
+            Леон — один из немногих выживших в инциденте Раккун-Сити <strong>1998</strong> года,
+            тогда он был офицером полиции.
+            </p>
+        <h4>Также встречается в</h4>
+        <table border="2">
+            <thead>
+            <tr>
+                <th>Game</th><!--Название столбца-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr><!--Открытие строки-->
+                <td>
+                    RE2 (1998)<!--Запись в строке-->
+                </td>
+            </tr><!--Закрытие строки-->
+            <tr>    
+                <td>
+                    Resident Evil Gaiden
+                </td>
+            </tr>
+            </tbody>
+            <!-- <tfoot></tfoot>  -->
+
+            
+        </table>
+        <hr />
+        <h2>Пожелания пол улучшению сайта</h2>
+        <form action="/" >
+            <label for="name">Ваше имя:</label>
+            <input name="" type="text" id = "name" 
+            placeholder="Иванов Иван Иваныч"><!-- for="name", id = "name" эти 2 конструкции нужны чтоб при нажатии на "Ваше имя:" на перекидывало  в поле ввода -->
+            <br />
+            <label for="email">Ваш email:</label>
+            <input name="" type="text" id = "email" 
+            placeholder="1234@mail.com" value="123@mail.com"><!--value="123@mail.com устанавливает значение по умолчанию-->
+            <!--placeholder="1234@mail.com" текст находящийся в пустом поле ввода-->
+            <br />
+            <label for="massage">Ваше сообщение:</label>
+            <br />
+            <textarea name="" id="massage"></textarea>
+            <br />
+            
+            <input type="submit" value="Отправка на почту">
+            <!-- это кнопка отправки-->
+        </form>
+    </body>
+
